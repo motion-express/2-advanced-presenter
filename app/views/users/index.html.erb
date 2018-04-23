@@ -1,7 +1,15 @@
-<h2>Users</h2>
+<h2>Users <span class="footnote">- CustomerHelper</span></h2>
 
 <ul>
   <% @users.each do |user| %>
-    <li><%= user.full_info %></li>
+    <li><%= customer_info(user) %></li>
+  <% end %>
+</ul>
+
+<h2>Users <span class="footnote">- BusinessHelper</span></h2>
+
+<ul>
+  <% @users.each do |user| %>
+    <li><%= business_info(user) %></li>
   <% end %>
 </ul>

@@ -28,11 +28,16 @@
   background-color: white;
   margin: 50px auto 0 auto;
   height: 500px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 20px 40px;
 }
 
 li {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.footnote {
+  color: #73869a;
+  font-size: 14px;
+  margin-left: 5px;
 }
